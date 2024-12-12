@@ -1,0 +1,43 @@
+<!-- The below example is for describing OBJECT DESTRUCTURING.
+It is of two types . They are Array Destructuring and Object Destructuring.
+What is Destructuring?
+        Destructuring is a powerful feature in JavaScript that allows you to 
+                  extract values from objects (and arrays) into distinct variables.-->
+
+
+<html>
+    <head>
+        <title>
+            Object Destructuring
+        </title>
+    </head>
+
+    <body>
+        <script>
+            const details ={
+                name : "Sravan",
+                age : "25",
+                gender : "Male",
+                workingCompany : "HCLSOFTWARE",
+                worklocation : "Pune"
+            };
+               <!--Destructuring the object to extract values into variables-->
+            const {name,age,gender,workingCompany,worklocation} = details;
+
+            console.log(name);
+            console.log(age);
+            console.log(gender);
+            console.log(workingCompany);
+            console.log(worklocation);
+
+        </script>
+
+
+    </body>
+
+
+
+
+
+
+</html>
